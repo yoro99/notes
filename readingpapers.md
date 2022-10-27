@@ -4,7 +4,7 @@
 
   * me：关于通道，一个通道获得一个eeg，可以检测不同位置的信息源（距离越近捕获的波形越明显），得到比较全面的数据
 
-  ![image-20221027155717931](C:\Users\杨蔚\AppData\Roaming\Typora\typora-user-images\image-20221027155717931.png)
+  ![](https://mdgraph-1301162508.cos.ap-shanghai.myqcloud.com/2022/image-20221027155717931.png)
 
   * 滤波可以获得稳定波形
 
@@ -28,10 +28,11 @@
   * 缺点是时间分辨率。由于血流需要几秒钟的变化，并且实际记录受到计算因素的限制，因此数据收集速度变慢；会破坏记录新反应的准确性，但确实提供了全方位的大脑反应
   * **无论脑磁图还是脑电图都来自于高级视觉皮层，而脑磁图还显示了来自低水平视觉皮层的成分**
 * **fNIRS（Functional Near-Infrared Spectroscopy ，f就代表有时间属性？）**：过放置在我们大脑头上的光源和探测器进行局部血流信号的测量；时间分辨率比fMRI技术快，空间分辨率比EEG技术大；便携性和伪影干扰小
+  
   * 数据集地址[hubandad/fNIRS-Dataset: Public fNIRS dataset (github.com)](https://github.com/hubandad/fNIRS-Dataset)
 * <img src="https://mdgraph-1301162508.cos.ap-shanghai.myqcloud.com/2022/20221027153111.png" style="zoom:50%;" />
 
-<img src="C:\Users\杨蔚\AppData\Roaming\Typora\typora-user-images\image-20221027153037088.png" alt="image-20221027153037088" style="zoom:50%;" />
+<img src="https://mdgraph-1301162508.cos.ap-shanghai.myqcloud.com/2022/image-20221027153037088.png" style="zoom:50%;" />
 
 * 多模态研究中，EEG-fNIRS、EEG-fMRI、fNIRS-fMRI以及EEG超扫描和fNIRS超扫描也是相应的使用
   * 不知道能不能使用多模态做类似**Image Captioning** 的工作
